@@ -8,7 +8,7 @@ To run this project, simply clone or download the project files and open the ind
 Usage
 Once the index.html file is open in your web browser, you can adjust the values of the sliders located on the left side of the screen to control the animation of the box on the right side of the screen.
 
-X: Adjusts the horizontal position of the box.
+X: Adjusts the horizontal position of the box.\n
 Y: Adjusts the vertical position of the box.
 Scale: Adjusts the size of the box.
 Rotation: Adjusts the rotation of the box.
