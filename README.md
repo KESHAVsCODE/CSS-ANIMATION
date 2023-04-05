@@ -18,4 +18,4 @@ This project was built using HTML, CSS, and JavaScript.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
-![97460bc5d83d4b98bdd6b69801ac3c93](https://user-images.githubusercontent.com/106483384/230109350-292e3020-0e06-434d-8616-cac6eb8a75df.png)
+
