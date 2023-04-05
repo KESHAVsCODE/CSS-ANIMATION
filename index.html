@@ -5,16 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="compute.js"></script>
     <title>Animation Controller</title>
   </head>
   <body>
     <h1 class="title">Animate the Box</h1>
     <div class="animation-card">
       <form class="controls" id="animation-controls">
-        <!-- we can use oninput="changeHandler(event)" instead of onchange but it is slightly different -->
-        <label id="anim-x-label" htmlFor="anim-x">X: </label>
+        <label id="anim-x-label" htmlFor="anim-x">X: 0%</label>
         <input
           onchange="changeHandler(event)"
           type="range"
@@ -24,7 +21,7 @@
           id="anim-x"
           name="anim-x"
         />
-        <label id="anim-y-label" htmlFor="anim-y">Y: </label>
+        <label id="anim-y-label" htmlFor="anim-y">Y: 0%</label>
         <input
           onchange="changeHandler(event)"
           type="range"
@@ -34,7 +31,7 @@
           id="anim-y"
           name="anim-y"
         />
-        <label id="anim-scale-label" htmlFor="anim-scale">Scale: </label>
+        <label id="anim-scale-label" htmlFor="anim-scale">Scale: 1</label>
         <input
           onchange="changeHandler(event)"
           type="range"
@@ -45,7 +42,9 @@
           id="anim-scale"
           name="anim-scale"
         />
-        <label id="anim-rotation-label" htmlFor="anim-rotation">Rotate: </label>
+        <label id="anim-rotation-label" htmlFor="anim-rotation"
+          >Rotation: 180</label
+        >
         <input
           onchange="changeHandler(event)"
           type="range"
@@ -53,10 +52,9 @@
           max="360"
           class="slider"
           id="anim-rotation"
-          name="anim-rotate"
         />
         <label id="anim-duration-label" htmlFor="anim-duration"
-          >Duration:
+          >Duration: 3s
         </label>
         <input
           onchange="changeHandler(event)"
@@ -66,12 +64,12 @@
           step="1"
           class="slider"
           id="anim-duration"
-          name="anim-duration"
         />
       </form>
       <div class="animation-container">
         <div class="animation-div" id="animation-box"></div>
       </div>
     </div>
+    <script src="compute.js"></script>
   </body>
 </html>
