@@ -19,3 +19,4 @@ This project was built using HTML, CSS, and JavaScript.
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
+![Alt text](https://github.com/KESHAVsCODE/CSS-ANIMATION/blob/main/97460bc5d83d4b98bdd6b69801ac3c93.png)
